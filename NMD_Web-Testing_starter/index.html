@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Three Column Skeletal Page</title>
+	
+	<meta charset="utf-8" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="TO BE CHANGED PER PAGE" />
+	<meta name="description" content="TO BE CHANGED PER PAGE" />
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>My Cupcakes Ipsum</h1>
+		</header>
+	<nav id="navigation">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	 <figure>
+  <img src="images/cupcakesImage.jpg" id="myImage" 
+  onmouseover="MouseRollover(this)" onmouseout="MouseOut(this)" alt="Cupcakes Image" width=900 height=300>
+ 
+ <figcaption onclick="myFunction(this)" class="fa fa-thumbs-up"> Fig.1 - Cup Cakes for Parties.</figcaption>
+</figure> 	
+
+<p onclick="myFunction(this)" class="fa fa-thumbs-up"></p>	
+
+
+
+<img onmouseover="swapImg(this)" onmouseout="swapImgBack(this)" src="images/rainbowStrawberry.png" alt="Cupcake" width="32" height="32">
+	<section>
+		<h2>This is a section</h2>
+		<p id='testing'></p>
+		
+		<aside>
+		<p>This is an aside</p>
+<button onclick="hideElement()">Click Me</button>
+
+<div id="hideMe">
+  This is my DIV element.
+</div> 
+		
+	<ul>
+	<li>	
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </li><li>Nam facilisis sem at felis rhoncus, at tristique urna posuere.
+    </li><li>Vivamus sit amet purus a magna congue ullamcorper.
+    </li><li>Cras ultricies urna a leo facilisis pretium.
+   </li><li>
+    Mauris malesuada libero eget magna semper consectetur.
+</li>
+	</ul>
+	</aside>	
+	<section id="mainContent">
+		<article class="threeCols">
+			<h4>Heading for Article 1</h4>
+			<p>Cupcake ipsum dolor sit amet biscuit candy jujubes pudding. Pastry cupcake marzipan gummies marzipan tart lollipop powder macaroon. Candy pastry powder. Icing cake chocolate bar cake soufflé sweet oat cake lemon drops. Cotton candy bonbon cotton candy cheesecake toffee jelly beans. Chupa chups marshmallow cotton candy croissant oat cake macaroon chocolate ice cream. Pastry sesame snaps wafer lollipop bonbon brownie cookie. Lollipop bonbon carrot cake. Macaroon wafer cotton candy sweet roll croissant. Gummi bears caramels pudding gummi bears gummies sesame snaps. Gummi bears dessert lemon drops oat cake bear claw sweet donut. Macaroon carrot cake liquorice.</p>	
+			<p>Pudding dessert gummi bears tootsie roll cake powder macaroon brownie. Sesame snaps pudding chupa chups lemon drops carrot cake tiramisu sugar plum jujubes. Candy candy canes powder. Halvah soufflé fruitcake toffee jelly donut. Sesame snaps cotton candy oat cake fruitcake toffee marzipan jelly beans liquorice apple pie. Jujubes halvah cake jelly beans lemon drops.</p>
+		</article><!-- end article 1 -->
+		
+		<article class="threeCols">
+			<h4>Heading for Article 2</h4>
+			<p>Cupcake ipsum dolor sit amet biscuit candy jujubes pudding. Pastry cupcake marzipan gummies marzipan tart lollipop powder macaroon. Candy pastry powder. Icing cake chocolate bar cake soufflé sweet oat cake lemon drops. Cotton candy bonbon cotton candy cheesecake toffee jelly beans. Chupa chups marshmallow cotton candy croissant oat cake macaroon chocolate ice cream. Pastry sesame snaps wafer lollipop bonbon brownie cookie. Lollipop bonbon carrot cake. Macaroon wafer cotton candy sweet roll croissant. Gummi bears caramels pudding gummi bears gummies sesame snaps. Gummi bears dessert lemon drops oat cake bear claw sweet donut. Macaroon carrot cake liquorice.</p>	
+			<p>Tiramisu ice cream marshmallow dessert chocolate bar sugar plum soufflé. Tart sugar plum candy cake halvah gummies. Tart dessert cake dessert lollipop. Topping cupcake cupcake pie topping tiramisu. Gummi bears apple pie lemon drops jelly. Dessert tiramisu cupcake donut. Gummies dessert croissant jujubes muffin oat cake sugar plum oat cake. Apple pie lemon drops gummi bears danish gummies caramels.</p>
+		</article><!-- end article 2 -->
+		
+		<article class="threeCols">
+			<h4>Heading for Article 3</h4>
+			 <form name="myForm" action="mailer.php" onsubmit="return validateForm()" method="post">
+		Name: 
+		<input type="text" name="fname">
+		<input type="submit" value="Submit">
+			</form> 
+			</article><!-- end article 3  -->	
+	</section>
+	</section>
+	<footer class="clear">
+		<p>Copyright &copy; CuppyCake Central</p>
+	</footer>
+	</div><!-- end div id container -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
